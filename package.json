@@ -1,0 +1,32 @@
+{
+    "name": "prom-server-nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "ts-node src/server.ts",
+        "build": "tsc",
+        "start": "node dist/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bassaer/prom-server-nodejs.git"
+    },
+    "keywords": [],
+    "author": "Tsubasa Nakayama <app.nakayama@gmail.com> (https://bassaer.github.io/me/)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bassaer/prom-server-nodejs/issues"
+    },
+    "homepage": "https://github.com/bassaer/prom-server-nodejs#readme",
+    "devDependencies": {
+        "@types/express": "^4.17.11",
+        "@types/node": "^14.14.41",
+        "ts-node": "^9.1.1",
+        "typescript": "3.8.3"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "prom-client": "^13.1.0"
+    }
+}
